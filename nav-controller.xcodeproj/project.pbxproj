@@ -12,6 +12,8 @@
 		5F0C412F1C28AF7800F4FCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C412D1C28AF7800F4FCB8 /* Main.storyboard */; };
 		5F0C41311C28AF7800F4FCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C41301C28AF7800F4FCB8 /* Assets.xcassets */; };
 		5F0C41341C28AF7800F4FCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C41321C28AF7800F4FCB8 /* LaunchScreen.storyboard */; };
+		5F0C413E1C28B28000F4FCB8 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C413D1C28B28000F4FCB8 /* YellowVC.swift */; };
+		5F0C41401C28B5F200F4FCB8 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C413F1C28B5F200F4FCB8 /* BlueVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5F0C41301C28AF7800F4FCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0C41331C28AF7800F4FCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F0C41351C28AF7800F4FCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0C413D1C28B28000F4FCB8 /* YellowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		5F0C413F1C28B5F200F4FCB8 /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5F0C41301C28AF7800F4FCB8 /* Assets.xcassets */,
 				5F0C41321C28AF7800F4FCB8 /* LaunchScreen.storyboard */,
 				5F0C41351C28AF7800F4FCB8 /* Info.plist */,
+				5F0C413D1C28B28000F4FCB8 /* YellowVC.swift */,
+				5F0C413F1C28B5F200F4FCB8 /* BlueVC.swift */,
 			);
 			path = "nav-controller";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0C41401C28B5F200F4FCB8 /* BlueVC.swift in Sources */,
 				5F0C412C1C28AF7800F4FCB8 /* ViewController.swift in Sources */,
 				5F0C412A1C28AF7800F4FCB8 /* AppDelegate.swift in Sources */,
+				5F0C413E1C28B28000F4FCB8 /* YellowVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
